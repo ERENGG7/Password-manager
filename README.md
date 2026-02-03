@@ -27,7 +27,7 @@ the **libsodium** library.
 
 ## Installation
 
-Clone the repository:
+1. Clone the repository:
 
 ```bash
 git clone https://github.com/ERENGG7/Password-manager.git
