@@ -25,6 +25,9 @@ the **libsodium** library.
 - Secure storage of encrypted passwords
 - Local JSON-based storage (offline)
 
+## License
+Apache License 2.0
+
 ## Installation
 
 1. Clone the repository:
