@@ -3,16 +3,13 @@
 A modern C++ password manager providing a simple graphical user interface built with **ImGui**.
 Passwords are securely stored in a local JSON file using **libsodium** for encryption and hashing.
 
-
 ![Password Manager Screenshot](password_manager.png)
-
 
 ## Table of Contents
 - [Description](#description)
 - [Features](#features)
 - [Installation](#installation)
 - [License](#license)
-
 
 ## Description
 This application provides a simple and secure way to store multiple passwords locally.
@@ -22,16 +19,15 @@ or company employees) who want to manage their passwords **without relying on th
 All sensitive data is encrypted and protected using modern cryptographic primitives from
 the **libsodium** library.
 
-
 ## Features
 - User registration and login
 - Vault unlocking with a unique master key
 - Secure storage of encrypted passwords
 - Local JSON-based storage (offline)
 
-
 ## Installation
 
-1. Clone the repository:
+Clone the repository:
+
 ```bash
 git clone https://github.com/ERENGG7/Password-manager.git
