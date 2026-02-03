@@ -1,0 +1,28 @@
+# Password Manager
+Password manager providing option to store and add password.
+Passwords are stored in json file using libsodium for encryption and hashing.
+
+![Password Manager Screenshot](password_manager.png)
+A modern C++ application providing simple GUI using ImGui.
+
+## Table of Contents
+- [Description](#description)
+- [Features](#features)
+- [License](#license)
+- [Installation](#installation)
+
+## Description
+This is an application with a simple graphical user interface and the ability to store multiple passwords in a secure location if the application is used on a single computer by different family members, teachers or company employees who want to save their passwords without the need for the Internet.
+
+## Features
+- Registration or login
+- Unlocking stored passwords with a special key
+- Storing your password securely
+
+## License
+Apache License 2.0
+
+## Installation
+1. Clone the repository:
+```bash
+git clone https://github.com/ERENGG7/Password-manager.git

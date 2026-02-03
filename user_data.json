@@ -1,0 +1,45 @@
+{
+    "users": [
+        {
+            "key_hash": "$argon2id$v=19$m=65536,t=2,p=1$t5ZuHz3MCxSAjtDFO8Grww$rkDOobdVgRZPUnWocLomqAbiqBVkKWpuMITowobDktQ",
+            "key_salt": "VEWB0z5v0ylMPdnZYCxZew==",
+            "password": "$argon2id$v=19$m=65536,t=2,p=1$7KOQfNDBgjatXiH+93r8nQ$Kqx95RiRgv9DI5GyR8WW94pCW4ZBNM5s6blRVZRy7ME",
+            "passwords": [
+                {
+                    "cipher": "FvX5DulgchraH1lhf5Okmy8xoLg=",
+                    "label": "shkolo",
+                    "nonce": "bKPvD0B3cFzpn6yfwUL3MW0Yuv79Bpgo"
+                },
+                {
+                    "cipher": "gXTxx/rLdn9UPIQFGB/HjDGNWpiyrjsj9g==",
+                    "label": "instagram",
+                    "nonce": "z+aHAo9AEvrnxzl58Pqok5EU7GRADFq5"
+                },
+                {
+                    "cipher": "/jewSKPYXzR9a3n6Rt71uGgumwjoHg==",
+                    "label": "gmail",
+                    "nonce": "wlLrovJai47GRhQnOMkVYYvWr2XFEBtg"
+                },
+                {
+                    "cipher": "c7rfcYqHm3PV5JLoQzSh5thQ4rogwRLTFPksnw==",
+                    "label": "facebook",
+                    "nonce": "fsqtGQFt9m/PomCiApiX7zTvObi9h7Xk"
+                }
+            ],
+            "username": "Eren"
+        },
+        {
+            "key_hash": "$argon2id$v=19$m=65536,t=2,p=1$2Flcp9Grrsbgd54j9F/X5g$3x8gE9pWs9AFiTYJJCEoA2lLbJbwhBUTFUzyzrcoClI",
+            "key_salt": "gdgQsGIDbkvUkVRQIYld7w==",
+            "password": "$argon2id$v=19$m=65536,t=2,p=1$tKNuwVCrA13Ou1RxgBCYCg$ChH2simJaPe1QRek1Rs2iwR5vB0raf+z5sO1iIvDu8I",
+            "passwords": [
+                {
+                    "cipher": "Teeu5bwTJO90EgiM1WEFZ70lGan1SzUp",
+                    "label": "steam",
+                    "nonce": "pG2REx27E+uFPpD/PYNCsbaIMqRkhKLA"
+                }
+            ],
+            "username": "Dani"
+        }
+    ]
+}
