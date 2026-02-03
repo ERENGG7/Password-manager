@@ -197,6 +197,7 @@ void Program::drawUI(bool& open) {
 		ImGui::Text("Enter key password to\nsee all of\nyour passwords:");
 		ImGui::PushItemWidth(270);
 		ImGui::PushID("Key input loged in");
+		ImGui::BeginDisabled(showPasswords);
 		ImGui::InputText("",
 			enterKeyInput,
 			sizeof(enterKeyInput),
@@ -218,6 +219,7 @@ void Program::drawUI(bool& open) {
 				sodium_memzero(enterKeyInput, sizeof(enterKeyInput));
 			}
 		}
+		ImGui::EndDisabled();
 		if (showText) {
 			textInRed("Wrong key!");
 		}
@@ -256,9 +258,13 @@ void Program::drawUI(bool& open) {
 				}
 				program_backend.add_password(name, label, label_password);
 				memset(label, 0, sizeof(label));
-				memset(label_password, 0, sizeof(label_password));
+				sodium_memzero(label_password, 0, sizeof(label_password));
 			}
 		}
 	}
 	ImGui::End();
+
+    if (!open) {
+	    sodium_memzero(enterKeyInput, sizeof(enterKeyInput));
+    }
 }
